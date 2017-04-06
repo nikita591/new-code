@@ -2,6 +2,9 @@ package com.client.domain;
 
 public class PoJo {
 	
+	/*
+	created by Anand 
+	*/
 	public String ename;
 	public int empno;
 	public int salary;
