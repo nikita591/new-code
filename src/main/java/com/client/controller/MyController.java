@@ -40,8 +40,8 @@ public class MyController {
 		String ename="harry";
 		int empno=1;
 		int salary=20000;
-		logger.info("Staring of Mycontoller method----");
-		
+		logger.info("Starting of Mycontroller method----");
+		logger.info("---------Setter-Getter Application---");
 		logger.info("---------In Controller---------");
 		try
 		{
@@ -57,7 +57,7 @@ public class MyController {
 		{
 			e.printStackTrace();
 		}
-		logger.info("Ending of Mycontoller method----");
+		logger.info("Ending of Mycontroller method----");
 		return "Setter-Getter Application Run Successfully";
 		
 	}
